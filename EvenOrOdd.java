@@ -4,9 +4,8 @@ public class EvenOrOdd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Ask the user to enter a number
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+       
+        int number = 6;
 
         // Check if the number is even or odd
         if (number % 2 == 0) {
